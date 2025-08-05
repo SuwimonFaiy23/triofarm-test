@@ -56,3 +56,20 @@ go run cmd/main.go
 sqlcmd -S <your_server_name>.database.windows.net,1433 -U <your_username> -P <your_password> -d triofarm-test -N -i database/menus.sql
 sqlcmd -S <your_server_name>.database.windows.net,1433 -U <your_username> -P <your_password> -d triofarm-test -N -i database/items.sql
 ```
+
+## 📄 API & Database Documentation
+
+เอกสารออกแบบ API และ SQL Schema อยู่ใน Google Docs ตามลิงก์ด้านล่าง:
+
+🔗 [API Design & SQL Schema (Google Docs)]
+- API Document แบบทดสอบ
+https://docs.google.com/document/d/16AafWEMZPqCOtvvXI9VsyJDPmDt2QyMuzsWeNIuc6SE/edit?usp=sharing
+
+- SQL Schema Documentation
+https://docs.google.com/document/d/1JsFJmbcaGo0BwNkE7NUyjheD9Klz_SeMxJuj2wmjrOk/edit?usp=sharing
+
+## 📬 Postman Collection
+
+ไฟล์ Postman สำหรับทดสอบ API:
+
+📁 [`triofarm-api.postman_collection.json`](./postman/triofarm-test.postman_collection.json)
