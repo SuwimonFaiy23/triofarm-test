@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output folders
+/bin/
+/build/
+/dist/
+
+# Vendor (ถ้าใช้ go mod vendor)
+vendor/
+
+# Go modules
+go.sum
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config file (ความลับ)
+config.yaml
+
+# Logs or runtime files
+*.log
+*.out
